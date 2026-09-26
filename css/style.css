@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(41, 125, 194);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 5vh;
+    font-size: 50px;
+}
+
+.gallery{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+}
+
+.gallery_item img{
+    width: 600px;
+    height: 600px;
+    padding-left: 30px;
+}
+
+p{
+    color: white;
+    font-size: 27px;
+}
+
+@media screen and (max-width: 480px) {
+    .gallery_item img{
+        width: 300px;
+        height: 300px;
+    }
+    .gallery{
+        flex-direction: column;
+    }
+}
